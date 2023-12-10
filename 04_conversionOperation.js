@@ -1,3 +1,6 @@
+//conversion  
+
+
 let age="7885";
 //here we do conversion of one datatype to another datatype
 console.log(typeof(age))
@@ -47,3 +50,30 @@ console.log(typeof(isLogin))
 let isLoginInBool=Boolean(isLogin)
 console.log(isLoginInBool)
 console.log(typeof isLoginInBool);
+
+//*********************Opertaions***************** */
+//in this we have many opertaions like arithetic operations, concatination and many more
+let num=9;
+let negNum=-num;
+console.log(negNum)
+
+//like other programming arithmetic operation works as work in another language
+console.log(5 + 7)//addition
+console.log(5 - 7)//substraction
+console.log(5 * 7)//multiplication
+console.log(5 / 7)//division
+console.log(5 ** 7)//exponent
+console.log(5 % 7)//modulo
+
+//concatenate two or more string
+let str1="Rajneesh ";
+let str2="Anshu"
+console.log(str1+str2)
+
+console.log("1" + 2)//first string come so whole can be converted into string
+console.log(1 + "2");//here after one a string come to next all to be consider as string
+console.log("1" + 2 + 2)//here all is treated as string 
+console.log(1 + 2+ "5");//here only 5 is consider as string
+
+console.log(+true)//it gives 1 i.e boolean is converted into number
+console.log(+" ")//it gives 0 because of the conversion into number
